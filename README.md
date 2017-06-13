@@ -62,12 +62,14 @@ Requirements
   * In order to be able to create geometries, you will need to apply this patch on official Odoo branch (OCB is already patched): https://github.com/odoo/odoo/pull/10639
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
 [base_geoengine](base_geoengine/) | 10.0.1.0.0 | Geospatial support for Odoo
 [base_geoengine_demo](base_geoengine_demo/) | 10.0.1.0.0 | Geo spatial support Demo
+
 
 Unported addons
 ---------------
