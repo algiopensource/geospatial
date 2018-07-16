@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # © 2016 Yannick Vaucher (Camptocamp SA)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
-from openerp import api, fields, models
+from odoo import api, fields, models
 
 
 class GeoRasterLayer(models.Model):
@@ -24,7 +24,7 @@ class GeoRasterLayer(models.Model):
     def onchange_set_wmts_options(self):
         """ Define default values for lausanne map service """
         if self.raster_type == 'map.lausanne.ch':
-            self.url = 'http://map.lausanne.ch/main/tiles/'
+            self.url = 'http://map.lausanne.ch/tiles/'
             self.format_suffix = 'png'
             self.projection = 'EPSG:21781'
             self.units = 'm'
