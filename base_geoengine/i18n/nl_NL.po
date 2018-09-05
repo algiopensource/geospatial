@@ -3,20 +3,19 @@
 # * base_geoengine
 # 
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
-# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# Peter Hageman <hageman.p@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-14 02:46+0000\n"
-"PO-Revision-Date: 2017-01-14 02:46+0000\n"
-"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>, 2017\n"
-"Language-Team: Basque (https://www.transifex.com/oca/teams/23907/eu/)\n"
+"POT-Creation-Date: 2017-08-19 02:30+0000\n"
+"PO-Revision-Date: 2017-08-19 02:30+0000\n"
+"Last-Translator: Peter Hageman <hageman.p@gmail.com>, 2017\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/oca/teams/23907/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: eu\n"
+"Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_geoengine
@@ -80,7 +79,7 @@ msgstr ""
 #. module: base_geoengine
 #: model:ir.ui.menu,name:base_geoengine.geoengine_base_view_menu
 msgid "Configuration"
-msgstr "Konfigurazioa"
+msgstr ""
 
 #. module: base_geoengine
 #: field:ir.model.fields,gist_index:0
@@ -91,13 +90,13 @@ msgstr ""
 #: field:geoengine.raster.layer,create_uid:0
 #: field:geoengine.vector.layer,create_uid:0
 msgid "Created by"
-msgstr "Nork sortua"
+msgstr "Aangemaakt door"
 
 #. module: base_geoengine
 #: field:geoengine.raster.layer,create_date:0
 #: field:geoengine.vector.layer,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Aangemaakt op"
 
 #. module: base_geoengine
 #: field:ir.ui.view,default_extent:0
@@ -108,7 +107,7 @@ msgstr ""
 #: field:geoengine.raster.layer,display_name:0
 #: field:geoengine.vector.layer,display_name:0
 msgid "Display Name"
-msgstr "Izena erakutsi"
+msgstr "Weergavenaam"
 
 #. module: base_geoengine
 #: selection:geoengine.raster.layer,raster_type:0
@@ -231,19 +230,19 @@ msgstr ""
 #: field:geoengine.raster.layer,__last_update:0
 #: field:geoengine.vector.layer,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Laatst gewijzigd op"
 
 #. module: base_geoengine
 #: field:geoengine.raster.layer,write_uid:0
 #: field:geoengine.vector.layer,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Laatst bijgewerkt door"
 
 #. module: base_geoengine
 #: field:geoengine.raster.layer,write_date:0
 #: field:geoengine.vector.layer,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Laatst bijgewerkt op"
 
 #. module: base_geoengine
 #: field:geoengine.raster.layer,name:0 field:geoengine.vector.layer,name:0
